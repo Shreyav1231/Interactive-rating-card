@@ -104,3 +104,10 @@ p {
 #box-2 {
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 80%;
+        min-width: auto;
+    }
+}
